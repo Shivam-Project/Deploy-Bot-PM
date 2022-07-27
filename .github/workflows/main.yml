@@ -10,7 +10,8 @@ jobs:
   deploy-bot:
     name: BOTPM
     runs-on: ubuntu-latest
-
+    
+    steps:
       - name: clone source
         run: |
           git config --global user.email nasutionmiku@gmail.com
